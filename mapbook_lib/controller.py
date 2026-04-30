@@ -11,3 +11,11 @@ def add_user(users_data: list) -> None:
     usermessage = ('')
     mes_info = input('Przekaż wiadomość: ').split()
     users_data.append({"username": name, "location": place, "posts": post_num, "usermessage": mes_info})
+
+
+def remove_user(users_data: list) -> None:
+    name = input('Podaj imie użytkownika do usunięcia: ')
+
+    for user in users_data:
+        if user['username'] == name:
+            users_data.remove(user)
