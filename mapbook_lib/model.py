@@ -1,10 +1,10 @@
 users: list = [
-    {'username': 'oliwia', 'location': 'łódź', 'posts': 1,
+    {'username': 'oliwia', 'location': 'Łódź', 'posts': 1,
      'usermessage': ['życzenia1', 'kocham legie', 'sprzedam opla', 'kiwi']},
-    {'username': 'paweł', 'location': 'ostróda', 'posts': 2,
+    {'username': 'paweł', 'location': 'Warszawa', 'posts': 2,
      'usermessage': ['życzenia2', 'kocham legie', 'sprzedam opla', ]},
-    {'username': 'eliza', 'location': 'radom', 'posts': 3,
+    {'username': 'eliza', 'location': 'Radom', 'posts': 3,
      'usermessage': ['życzenia3', 'kocham legie', 'sprzedam opla', ]},
-    {'username': 'ewelina', 'location': 'dęblin', 'posts': 4,
+    {'username': 'ewelina', 'location': 'Lublin', 'posts': 4,
      'usermessage': ['życzenia4', 'kocham legie', 'sprzedam opla', ]},]
 

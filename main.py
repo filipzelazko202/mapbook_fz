@@ -1,5 +1,5 @@
 from mapbook_lib.model import users
-from mapbook_lib.controller import read_data, add_user, remove_user, update_user, get_mapa
+from mapbook_lib.controller import read_data, add_user, delete_user, update_user, get_mapa
 
 while True:
     print("0 - zakończ program")
@@ -16,7 +16,7 @@ while True:
     if choose == "2":
         add_user(users)
     if choose == "3":
-        remove_user(users)
+        delete_user(users)
     if choose == "4":
         update_user(users)
     if choose == "5":
